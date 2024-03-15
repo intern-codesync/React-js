@@ -94,6 +94,16 @@ const Navbar = () => {
               Link to home
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/dashboard"
+              style={navLinkStyle}
+              activeStyle={navLinkActiveStyle}
+              className="nav-link"
+            >
+              Link to dashboard
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
