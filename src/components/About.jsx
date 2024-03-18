@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import DashboardAnalytics from "./DashboardAnalytics";
 
 function About() {
   const cardStyle = {
@@ -17,6 +18,7 @@ function About() {
 
   return (
     <>
+    <section>
       <h1>About Component</h1>
       <p>This is the About page content.</p>
       <div
@@ -48,6 +50,8 @@ function About() {
         </div>
         {/* You can add more dynamic links here */}
       </div>
+      <DashboardAnalytics/>
+      </section>
     </>
   );
 }
