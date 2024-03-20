@@ -7,6 +7,11 @@ import Page404 from "../pages/Page404";
 import MainLayouts from "../layouts/MainLayouts";
 import DashboardLayout from "../layouts/DashboardLayout";
 import PropsData from "../components/PropsData";
+import UseState from "../components/UseState/UseState";
+import InputfieldUseState from "../components/UseState/InputfieldUseState"
+// import Header from "../components/Header/Header";
+// import Footer from "../components/Footer/Footer";
+// import Home from "../components/Home/Home";
 
 const routes = [
   {
@@ -17,7 +22,10 @@ const routes = [
       { path: "userprofile/:Id", element: <UserProfile /> },
       { path: "usernavigation", element: <UserNavigation /> },
       { path: "uselocation/fullroute/uselocation", element: <UseLocation /> },
-      { path: "PropsData", element: <PropsData /> }
+      { path: "PropsData", element: <PropsData /> },
+      // {path: "", element: <Home/>}
+      { path: "UseState", element: <UseState /> },
+      {path: "InputfieldUseState", element: <InputfieldUseState/>}
     ],
   },
   {
@@ -26,7 +34,6 @@ const routes = [
     children: [
       { path: "profile", element: <div>Profile Page</div> },
       { path: "products", element: <div>Products</div> },
-      // Add more dashboard children routes as needed
     ],
   },
   { path: "*", element: <Page404 /> },

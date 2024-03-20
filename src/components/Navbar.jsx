@@ -59,7 +59,7 @@ const Navbar = () => {
               to="/about"
               style={navLinkStyle}
               activeStyle={navLinkActiveStyle}
-              className="nav-link"
+            className="nav-link bg-[red]"
             >
               About
             </NavLink>
@@ -69,7 +69,7 @@ const Navbar = () => {
               to="/UserProfile/123"
               style={navLinkStyle}
               activeStyle={navLinkActiveStyle}
-              className="nav-link"
+              className="nav-link bg-[red]" 
             >
               Use Params
             </NavLink>
@@ -79,7 +79,7 @@ const Navbar = () => {
               to="/UseLocation/fullroute/uselocation"
               style={navLinkStyle}
               activeStyle={navLinkActiveStyle}
-              className="nav-link"
+              className="nav-link bg-[red]"
             >
               Use Location
             </NavLink>
@@ -89,7 +89,7 @@ const Navbar = () => {
               to="/UserNavigation"
               style={navLinkStyle}
               activeStyle={navLinkActiveStyle}
-              className="nav-link"
+              className="nav-link bg-[red]"
             >
               Link to home
             </NavLink>
@@ -99,9 +99,19 @@ const Navbar = () => {
               to="/dashboard"
               style={navLinkStyle}
               activeStyle={navLinkActiveStyle}
-              className="nav-link"
+              className="nav-link bg-[red]"
             >
               Link to dashboard
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/PropsData"
+              style={navLinkStyle}
+              activeStyle={navLinkActiveStyle}
+              className="nav-link bg-[red]"
+            >
+              Props Data
             </NavLink>
           </li>
         </ul>

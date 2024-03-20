@@ -18,6 +18,7 @@ const ParentComponent = () => {
           buttonName={item.buttonName}
         />
       ))}
+
     </div>
   );
 };
